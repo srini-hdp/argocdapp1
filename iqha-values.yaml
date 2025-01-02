@@ -1,0 +1,16 @@
+iq_server:
+  database:
+    hostname: "172.17.0.1"
+    name: "kind_iqhadb"
+    password: "iq123"
+    username: "iq"
+  persistence:
+    enabled: true
+    size: 2G
+    persistentVolumeName: ""
+    storageClassName: "nfs"
+  replicas: 2
+  ingress:
+    enabled: true
+    hostApplication: "iqha1.mydomain"
+    hostAdmin: "iqha1-admin.mydomain"
