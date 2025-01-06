@@ -1,4 +1,7 @@
 iq_server:
+iq_server:
+  image: "sonatype/nexus-iq-server"
+  tag: "1.185.0"
   database:
     hostname: "172.17.0.1"
     name: "kind_iqhadb"
