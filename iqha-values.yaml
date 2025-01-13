@@ -1,6 +1,6 @@
 iq_server:
   image: "sonatype/nexus-iq-server"
-  tag: "1.185.0"
+  tag: "1.186.0"
   licenseSecret: nx-license
   database:
     hostname: "172.17.0.1"
